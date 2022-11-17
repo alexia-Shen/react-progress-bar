@@ -2,7 +2,7 @@ import ProgressBar from './ProgressBar';
 import { shallow } from 'enzyme';
 import { ProgressBarItem } from '../models/ProgressBar.model';
 
-describe.only('ProgressBar', () => {
+describe('ProgressBar', () => {
 
     test('should display progress with percentage in component.', () => {
         // Given a progress bar object with progress 10

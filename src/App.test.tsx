@@ -11,7 +11,7 @@ describe('App', () => {
     test('should render header', () => {
         const header = appComponent.find('h2');
         expect(header.length).toEqual(1);
-        expect(header.text()).toEqual('Progress Bar demo');
+        expect(header.text()).toEqual('Progress Bars Demo');
     });
 
     test('should render all buttons', () => {
