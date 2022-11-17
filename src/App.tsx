@@ -50,7 +50,7 @@ function App() {
     return (
         <Container fluid>
             <div className='app'>
-                <h2>Progress Bar demo</h2>
+                <h2>Progress Bars Demo</h2>
                 <Row>
                     <Col>
                         <div className='progressbar-group'>
